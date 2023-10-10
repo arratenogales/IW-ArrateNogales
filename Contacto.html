@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" >
+    <link rel="stylesheet" href="Css/styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>MUNDOVIAJA</h1>
+    </header>
+
+    <nav>
+        <a class="index" href="index.html">INICIO</a>
+        <a class="index" href="Introducción.html">¿QUIENES SOMOS?</a>
+        <a class="index" href="Destinos.html">DESTINOS</a>
+        <a class="index" href="Paquetes_viaje.html">PAQUETES DE VIAJE</a>
+        <a class="index" href="Contacto.html">CONTACTO</a>
+    </nav>
+
+    <main>
+        <h2>¡CONTÁCTANOS PARA COMENZAR TU AVENTURA!</h2>
+
+        <P>Rellena el siguiente formulario de para ponerte en contacto con nosotros.</P>
+
+        <form action="form.php" method="post">
+            <fieldset>
+                <legend>Datos del usuario:</legend><br>
+
+                Nombre: <input type="text" name="user_name"><br><br>
+                Apellidos: <input type="text" name="user_last_name"><br><br>
+                Direccion de correo electronico: <input type="email"  name="user_mail"><br><br>
+                Número de telefono: <input type="tel"  name="user_telephone"><br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos de la reserva:</legend><br>
+
+                Destino de interes (opcional):<select id="groups" name="groups"> 
+                    <option selected>Seleccione destino</option>
+                    <option>Barcelona</option>
+                    <option>Madrid</option>
+                    <option>Sevilla</option>
+                    <option>Valencia</option>
+                    <option>Islas Canaria</option>
+                    <option>Gran Canaria</option>
+                    <option>Tenerife</option>
+                    <option>Lanzarote</option>
+                    <option>Fuerteventura</option>
+                    <option>Islas Baleares</option>
+                    <option>Ibiza</option>
+                    <option>Mallorca</option>
+                    <option>Menorca</option>
+                    <option>Formentera</option>
+                    <option>Costa Brava</option>
+                    <option>Bilbao</option>
+                    <option>Santander</option>
+                    <option>España</option>
+                    <option>Francia</option>
+                    <option>Italia</option>
+                    <option>Reino Unido</option>
+                    <option>Portugal</option>
+                    <option>Grecia</option>
+                    <option>Croacia</option>
+                    <option>Bélgica</option>
+                    <option>Alemania</option>
+                    <option>Holanda</option>
+                    <option>Suecia</option>
+                    <option>Austria</option>
+                    <option>Noruega</option>
+
+                </select>
+
+                <P>Selecciona la fecha de viaje prevista (opcional):</P>
+                <input type="date" name="date"><br>
+
+                <P>¿Has viajado alguna vez con nosotr@s?</P>
+                <input type="radio" name="primera_vez" value="Si" checked>Si, he viajado 1 vez o mas con esta compañia
+                <input type="radio" name="primera_vez" value="No">No, es mi primera vez<br><br>
+
+                <textarea name="textarea" rows="10" cols="40">Consulta adicional</textarea>
+
+            </fieldset>
+
+            <br><input type="checkbox" name="Accept" value="Aceptar"> Acepto las condiciones<br><br>
+
+            <input type="submit" value="Enviar consulta">
+
+        </form>
+    </main>
+
+    <footer>        
+        <h6>COPYRIGHT</h6>
+        <p>Textos redactados por chat GPT. © 2023 Mundo Viaja Agencia de Viajes. Todos los derechos reservados. El contenido de este sitio web, incluyendo textos, imágenes, logotipos y otros elementos, está protegido por las leyes de derechos de autor y propiedad intelectual. Queda prohibida la reproducción o distribución no autorizada de cualquier parte de este sitio sin el consentimiento por escrito de Mundo Viaja.</p>
+        <h6>POLÍTICA DE PRIVACIDAD</h6>
+        <p>En Mundo Viaja, valoramos y respetamos su privacidad. Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos su información personal cuando utiliza nuestros servicios. Lea atentamente esta política y, si tiene alguna pregunta o inquietud, no dude en ponerse en contacto con nosotros.
+            
+            <ul>
+                <li>Recopilación de Información:
+                    <ul>
+                        <li>Mundo Viaja recopila información personal como nombre, dirección de correo electrónico y datos de contacto cuando realiza una reserva o consulta.</li>
+                        <li>También podemos recopilar información de ubicación y preferencias de viaje para personalizar su experiencia.</li>
+                    </ul>
+                </li>
+
+                <li>Uso de la Información:
+                    <ul>
+                        <li>Utilizamos su información para procesar reservas, proporcionar servicios y responder a consultas.</li>
+                        <li>Podemos utilizar su información para enviarle actualizaciones sobre ofertas y promociones de Mundo Viaja (puede optar por no recibir estas comunicaciones).</li>
+                        <li>Su información se mantiene segura y no se comparte con terceros no relacionados sin su consentimiento.</li>
+                    </ul>
+                </li>
+
+                <li>Seguridad de Datos:
+                    <ul>
+                        <li>Mundo Viaja toma medidas para proteger su información y garantizar la seguridad de los datos.</li>
+                    </ul>
+                </li>
+
+                <li>Cambios en la Política:
+                    <ul>
+                        <li>Mundo Viaja puede actualizar esta Política de Privacidad ocasionalmente. Le recomendamos que consulte esta página periódicamente para conocer las actualizaciones.</li>     
+                    </ul>
+                </li>
+            </ul>
+            <p>Fecha de la última actualización: 02/10/2023.</p>
+
+    </footer>
+
+</body>
+</html>

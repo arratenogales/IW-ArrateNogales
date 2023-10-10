@@ -1,0 +1,28 @@
+body{
+    background-image: url('../image/paisaje.jpg');
+}
+
+header {
+    font-size: 80px;
+	color: #242702;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+main {
+    background-color: #d2bfbf;
+    text-align: center;
+	margin: auto;
+	padding: 20px;
+    padding-bottom: 10px;
+	width: 600px;
+}
+
+a {
+	color: black;
+    font-size: 25px;
+}
+
+a:hover {
+    color: #817d83;
+}
